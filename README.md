@@ -1,102 +1,110 @@
-# Wine Quality Prediction
+# Wine Quality Prediction Using Machine Learning
 
-A machine learning project that analyzes wine characteristics and predicts wine quality based on its physicochemical properties.
+A machine learning project that predicts wine quality using physicochemical properties and explores data patterns through exploratory data analysis, visualization, and model evaluation.
 
 ## Project Overview
 
-This project uses a wine quality dataset containing various chemical properties of wine along with its quality rating.
+Wine quality is influenced by multiple physicochemical characteristics, including acidity, residual sugar, chlorides, density, sulphates, and alcohol content.
 
-The notebook covers the complete machine learning workflow, starting from data exploration and cleaning to preprocessing, visualization, model training, and evaluation.
+This project explores these characteristics and develops classification models to predict wine quality ratings from the available dataset.
 
-## Project Workflow
+## Objectives
 
-* Data Loading
-* Data Exploration
-* Exploratory Data Analysis (EDA)
-* Data Cleaning
-* Handling Missing Values
-* Data Preprocessing
-* Feature Analysis
-* Data Visualization
-* Train-Test Split
-* Machine Learning Model Training
-* Model Evaluation
-* Wine Quality Prediction
+- Explore the relationships between wine characteristics and quality ratings.
+- Clean and preprocess the dataset for machine learning.
+- Perform exploratory data analysis and feature analysis.
+- Train and compare multiple classification models.
+- Evaluate model performance using appropriate classification metrics.
 
-## Dataset Features
+## Dataset
 
-The dataset contains features such as:
+The dataset, `winequalityN.csv`, contains physicochemical measurements and wine quality ratings.
 
-* Fixed Acidity
-* Volatile Acidity
-* Citric Acid
-* Residual Sugar
-* Chlorides
-* Free Sulfur Dioxide
-* Total Sulfur Dioxide
-* Density
-* pH
-* Sulphates
-* Alcohol
-* Wine Type
-* Quality
+Features include:
+
+- Fixed acidity, volatile acidity, and citric acid
+- Residual sugar and chlorides
+- Free and total sulfur dioxide
+- Density, pH, and sulphates
+- Alcohol content and wine type
+
+**Target variable:** Wine quality rating.
 
 ## Technologies Used
 
-* Python
-* Jupyter Notebook
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* XGBoost
-* LightGBM
+- **Language:** Python
+- **Data analysis:** Pandas, NumPy
+- **Visualization:** Matplotlib, Seaborn
+- **Machine learning:** Scikit-learn, XGBoost, LightGBM
+- **Development environment:** Jupyter Notebook
 
-## Machine Learning
+## Project Workflow
 
-The project uses classification-based machine learning techniques to predict wine quality from the available features.
+1. Load and inspect the dataset.
+2. Explore distributions, correlations, and quality ratings.
+3. Handle missing values and preprocess features.
+4. Analyze relationships between physicochemical properties and quality.
+5. Split the data into training and testing sets.
+6. Train classification models.
+7. Evaluate and compare model performance.
+8. Analyze predictions and identify areas for improvement.
 
-Models and machine learning tools explored in the notebook include:
+## Models and Techniques
 
-* Random Forest
-* Support Vector Machine (SVM)
-* XGBoost
-* LightGBM
-* K-Means
-* PCA
+### Classification
+- Random Forest
+- Support Vector Machine (SVM)
+- XGBoost
+- LightGBM
 
-## Results
+### Additional techniques
+- Principal Component Analysis (PCA)
+- K-Means clustering
 
-The trained models are evaluated using metrics such as:
+PCA and K-Means are included as additional analytical techniques, where implemented in the notebook.
 
-* Accuracy
-* Classification Report
+## Model Evaluation
 
-The notebook contains the detailed results, visualizations, and model evaluation.
+The notebook evaluates classification performance using accuracy and classification reports.
 
-## How to Run
+Add your actual results here after verifying the notebook outputs.
 
-1. Clone this repository.
-2. Open the `.ipynb` file using Jupyter Notebook or Google Colab.
-3. Install the required Python libraries.
-4. Make sure the dataset file is available.
-5. Run the notebook cells sequentially.
+| Model | Accuracy | Precision | Recall | F1-score |
+|---|---:|---:|---:|---:|
+| Random Forest | To be added | To be added | To be added | To be added |
+| SVM | To be added | To be added | To be added | To be added |
+| XGBoost | To be added | To be added | To be added | To be added |
+| LightGBM | To be added | To be added | To be added | To be added |
 
-## Project Structure
+*Report metrics using the same test split and evaluation approach for fair comparison. For multiclass classification, specify the averaging method used for precision, recall, and F1-score.*
+
+## Repository Structure
 
 ```text
 Wine-Quality-Prediction/
-│
 ├── Wine_Quality.ipynb
 ├── winequalityN.csv
 └── README.md
 ```
 
-## Purpose
+## How to Run
 
-The main objective of this project is to understand and implement an end-to-end machine learning workflow for predicting wine quality using real-world data.
+1. Clone or download the repository.
+2. Install the required libraries used in the notebook.
+3. Open `Wine_Quality.ipynb` in Jupyter Notebook or Google Colab.
+4. Ensure `winequalityN.csv` is available at the path expected by the notebook.
+5. Execute the notebook cells sequentially.
+
+## Key Learning Outcomes
+
+- Exploratory data analysis and feature analysis
+- Data cleaning and preprocessing
+- Supervised machine learning classification
+- Model evaluation and comparison
+- Data visualization and interpretation
 
 ## Author
-
 Aryan Mathuriya
+Aryan Mathuriya
+
+[GitHub Profile](https://github.com/Aryan-Mathuriya)
